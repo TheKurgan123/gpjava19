@@ -63,16 +63,19 @@ Class dates19 methods:
    6= Dec 10 2019 10:20
    7= long format, like:   December 10, 2019
    8= long format with time, like:  	December 10, 2019 10:20
-I was undecided on  format for 2 and 3, so I just skipped them for now.
+I was undecided on  format for 2 and 3, so I they are skipped for now.
+
 Or simply use:
 -- String dateFormat(Date ):  Accetps a Date and returns a date string in a short format like  "12-10-2019"
 
 USAGE sample:
   dateNow = new java.util.Date();     // instantiate a Date object -- requires an  'import java.util.Date();' stmt.
   String dateStr1 = dateFormat(dateNow, 7);   // call dateFormat(), saving to string var.
+Returns a value like:   December 10, 2019
 
+There are other methods within this class I will describe as time permits:
+dateDay, dateMonth, dateYear, dateGetMonthLong, etc.
 
-There are other methods within this class I will describe as time permits.
 
 
 
