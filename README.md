@@ -1,8 +1,10 @@
 # gpjava19
 gpjava19 is a package containing some basic, but useful, everyday classes and methods, like  validatePass, isValidEmail, OS, loginSucceeded, loginFailed, date manipulation, etc. This is a new project.  It is in it`s infancy.
 
+The file gpjava19.zip (available for download above) contains the gpjava19 package and all class files.
 
-The following classes are designed to work with JSP servlets (or standard Java classes).  They must be in a package named "gpjava19".  For Tomcat/jsp apps, this package would be a folder  within your WEB-INF/classes folder, like:
+The following classes {within gpjava19} are designed to work with JSP servlets (or standard Java classes).  They must be in a package named "gpjava19".  Just unzip the gpjava19 package from gpjava19.zip to your application's WEB-INF/classes folder.
+For Tomcat/jsp apps, this package would be a folder like:
   ../WEB-INF/classes/gpjava19
   
   
