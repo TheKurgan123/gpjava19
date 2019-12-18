@@ -24,6 +24,7 @@ However, some methods and properties are initialized within the constructor.  So
 Following is a usage sample for using methods `validatePass`, `isValidEmail`, and properties `loginSucceeded` & `loginFailed`.  First import the  gpjava19.Common19b class.  Then instantiate it  and use the method:s/properties
 
 Sample #1:
+```
   <%@ page import = "gpjava19.Common19b" %>
   <%
   Common19b c = new Common19b();
@@ -40,9 +41,8 @@ Sample #1:
     loginDisplay = nameStr1 +" "+ Common19b.loginSucceeded + " - "+ dateStr1 ;    
   }  // nameStr1 is a var saved from prior input of user-name.
   else {   loginDisplay = Common19b.loginFailed;   }
-
   %>
-This also calls the validatePassOutput method so you can clearly see whether the values are passed accurately and if they are equal/not.
+```
 Note -- Dates19 is another class in the gpjava19 package.
 
 
@@ -71,9 +71,11 @@ Or simply use:
 -- String dateFormat(Date ):  Accetps a Date and returns a date string in a short format like  "12-10-2019"
 
 USAGE sample:
+```
   dateNow = new java.util.Date();     // instantiate a Date object -- requires an  'import java.util.Date();' stmt.
   String dateStr1 = dateFormat(dateNow, 7);   // call dateFormat(), saving to string var.
 Returns a value like:   December 10, 2019
+```
 
 There are other methods within this class I will describe as time permits:
 dateDay, dateMonth, dateYear, dateGetMonthLong, etc.
