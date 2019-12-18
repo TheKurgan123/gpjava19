@@ -8,7 +8,8 @@ For Tomcat/jsp apps, this package would be a folder like:
   ../WEB-INF/classes/gpjava19
   
   
------ Class Common19b,  in pacakge gpjava19 :
+----- Common19b Class (pacakge gpjava19):
+
 At present, this class contains a few useful methods and properties, like:
   validatePass, isValidEmail, OS, loginSucceeded, loginFailed, etc.
 These are some tedious, but always needed methods for most JSP projects.
@@ -53,7 +54,8 @@ This method performs simple email validation.  I will write a more comprehensive
 >> See Sample #1 above for usage.
 
 
------ Dates19:
+----- Dates19 Class (pacakge gpjava19):
+
 Class Dates19 helps with Java date values allowing you to quickly return/get a date in a common format without a lot of thought or fuss.  It accepts a Date parameter.  The date passed in must be a  std  Java.util.Date().
 Like:  Mon Dec 16 15:51:46 CST 2019
 The usual format is:  "EEE MMM d HH:mm:ss zzz yyyy"
