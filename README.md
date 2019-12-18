@@ -56,29 +56,40 @@ This method performs simple email validation.  I will write a more comprehensive
 
 ----- Dates19 Class (pacakge gpjava19):
 
-Class Dates19 helps with Java date values allowing you to quickly return/get a date in a common format without a lot of thought or fuss.  It accepts a Date parameter.  The date passed in must be a  std  Java.util.Date().
+Class Dates19 helps with Java date values allowing you to quickly return/get a date in a common format without a lot of thought or fuss.  It accepts a Date parameter.  The date passed must be a  std  Java.util.Date().
+
 Like:  Mon Dec 16 15:51:46 CST 2019
+
 The usual format is:  "EEE MMM d HH:mm:ss zzz yyyy"
-Accomplished simply as:  Date dateNow = new Java.util.Date();
+
+This is accomplished simply as:  Date dateNow = new Java.util.Date();
 
 Class dates19 methods:
+
 -- String dateFormat(Date, int ):  Accetps a Date and an integer and returns a date string indicated by the int value parameter:
    int:  indicates the date format desired:  
+   
    1= std short format nn-nn-nnnn, like:  12-10-2019
+   
    5= Dec 10 2019
+   
    6= Dec 10 2019 10:20
+   
    7= long format, like:   December 10, 2019
+   
    8= long format with time, like:  	December 10, 2019 10:20
+   
 I was undecided on  format for 2 and 3, so I they are skipped for now.
 
 Or simply use:
+
 -- String dateFormat(Date ):  Accetps a Date and returns a date string in a short format like  "12-10-2019"
 
 USAGE sample:
 ```java
   dateNow = new java.util.Date();     // instantiate a Date object -- requires an  'import java.util.Date();' stmt.
   String dateStr1 = dateFormat(dateNow, 7);   // call dateFormat(), saving to string var.
-Returns a value like:   December 10, 2019
+// Returns a value like:   December 10, 2019
 ```
 
 There are other methods within this class I will describe as time permits:
