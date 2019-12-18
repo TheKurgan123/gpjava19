@@ -42,6 +42,8 @@ Sample #1:
   }  // nameStr1 is a var saved from prior input of user-name.
   else {   loginDisplay = Common19b.loginFailed;   }
   %>
+Then later, within the form, you would have a line to display the loginDisplay string, like:
+  <%  out.println( loginDisplay );  %><br/>
 ```
 Note -- Dates19 is another class in the gpjava19 package.
 
