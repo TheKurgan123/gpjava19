@@ -25,7 +25,7 @@ However, some methods and properties are initialized within the constructor.  So
 Following is a usage sample for using methods `validatePass`, `isValidEmail`, and properties `loginSucceeded` & `loginFailed`.  First import the  gpjava19.Common19b class.  Then instantiate it  and use the method:s/properties
 
 Sample #1:
-```
+```java
   <%@ page import = "gpjava19.Common19b" %>
   <%
   Common19b c = new Common19b();
@@ -75,7 +75,7 @@ Or simply use:
 -- String dateFormat(Date ):  Accetps a Date and returns a date string in a short format like  "12-10-2019"
 
 USAGE sample:
-```
+```java
   dateNow = new java.util.Date();     // instantiate a Date object -- requires an  'import java.util.Date();' stmt.
   String dateStr1 = dateFormat(dateNow, 7);   // call dateFormat(), saving to string var.
 Returns a value like:   December 10, 2019
