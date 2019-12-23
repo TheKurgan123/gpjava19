@@ -50,16 +50,17 @@ Note -- Dates19 is another class in the gpjava19 package.
 
 
 -- There is also a complete Login form available via the `loginForm1` class.  It is very simple and easy to use.  Simply drop in a line like
-```
+```java
 out.println(c19.loginForm1("This is m y form Title") ).
+```
 
 Explained:
-```
+```java
   // If you haven`t already, you will need to instantiate a Common19b object:
   <%!  Common19b c19 = new Common19b(); %>
   // Now all you have to do is drop in a line like below:
   <% out.println(c19.loginForm1("This is m y form Title") ); %>
-  
+```
 The `loginForm1` contains fields:   surferName, email  and passwordStr.
 
 The `loginForm1` calls `loginSucceeded.jsp` if successful.  
