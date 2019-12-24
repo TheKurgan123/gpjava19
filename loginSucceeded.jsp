@@ -40,8 +40,8 @@
 	</div>
 	<br/>
 	
-	<div  style="width:93%;  margin:0px; margin-top:10px;  padding:0.5% 3.33%;  background-color:lightgrey; ">
-		Form produced by Green Lamar, package "gpjava19", class "Common19b"
+	<div  style="width:93%;  margin:0px; margin-top:10px;  padding:0.5% 3.33%;  font-size:0.88em; background-color:lightgrey; ">
+		Form produced by Green Lamar, package "gpjava19", class "Common19b", method "loginForm1"
 	</div>
 </section>
 
